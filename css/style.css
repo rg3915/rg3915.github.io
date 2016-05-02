@@ -143,9 +143,10 @@ header {
 	/*background: url(../img/header-bg.jpg) no-repeat bottom center;*/
 	/*background: url(../peugeot-concept-bike-onyx-08.jpg) no-repeat bottom center;*/
 	/*background: url(../aircraft_minimalistic_wall_humor_imagination_paper_plane_1920x1080.jpg) no-repeat bottom center;*/
-	background: url(../img/aircraft.jpg) no-repeat bottom center;
-	background-size: cover;
-	color: #d9e0e2;
+	background: url(../img/aircraftmini.jpg) no-repeat center center;
+	/*background-size: cover;*/
+	background-color: #52ba61;
+	/*color: #d9e0e2;*/
 	position: relative;
 	height: 100%;
 }
@@ -168,6 +169,11 @@ header p {
 	text-transform: uppercase;
 	color: #d9e0e2;
 	letter-spacing: 2px;
+}
+@media (max-width: 768px) {
+.intro-text H1 {
+	font-size: 35px;
+}
 }
 .color {
 	color: #f3ca27;
